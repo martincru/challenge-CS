@@ -1,0 +1,38 @@
+{
+  "name": "challenge-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:e2e": "cypress run",
+    "test:e2e:open": "cypress open",
+    "test:e2e:ci": "cypress run --reporter cypress-mochawesome-reporter"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "bcryptjs": "^3.0.3",
+    "jose": "^6.2.3",
+    "next": "16.2.7",
+    "openai": "^6.41.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "cypress": "^15.16.0",
+    "cypress-mochawesome-reporter": "^4.0.2",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.7",
+    "mochawesome": "^7.1.4",
+    "mochawesome-merge": "^5.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5",
+    "wait-on": "^9.0.10"
+  }
+}

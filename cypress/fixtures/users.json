@@ -1,0 +1,25 @@
+{
+  "valid": {
+    "name": "Alice Johnson",
+    "email": "alice@example.com",
+    "password": "alice123"
+  },
+  "wrongPassword": {
+    "email": "alice@example.com",
+    "password": "wrongpassword"
+  },
+  "unknown": {
+    "email": "nobody@example.com",
+    "password": "password123"
+  },
+  "newUser": {
+    "name": "New Test User",
+    "email": "newuser@example.com",
+    "password": "newpass123"
+  },
+  "duplicate": {
+    "name": "Duplicate User",
+    "email": "duplicate@example.com",
+    "password": "duppass123"
+  }
+}
