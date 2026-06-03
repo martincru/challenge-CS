@@ -74,7 +74,7 @@ npx cypress open
 | Variable | Default | Description |
 |----------|---------|-------------|
 | `OPENAI_API_KEY` | — | **Required.** OpenAI API key. |
-| `AI_MODEL` | `gpt-4o` | Model used for classification and patch generation. |
+| `AI_MODEL` | `gpt-5.4-mini` | Model used for classification and patch generation. |
 | `AI_MAX_ITERATIONS` | `3` | Maximum fix attempts per failing test before giving up. |
 
 ### Flags
